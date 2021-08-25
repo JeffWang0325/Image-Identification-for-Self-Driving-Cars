@@ -153,7 +153,8 @@ class _RepeatSampler(object):
 
 
 class LoadImages:  # for inference
-    def __init__(self, path, img_size=640, stride=32):
+    def __init__(self, path, img_size=640, stride=32, B_StopRun = False): # Jeff Revised!
+        self.B_StopRun = B_StopRun
         p = str(Path(path).absolute())  # os-agnostic absolute path
         if '*' in p:
             files = sorted(glob.glob(p, recursive=True))  # glob
@@ -185,8 +186,12 @@ class LoadImages:  # for inference
         self.count = 0
         return self
 
+    def StopRun(self): # Jeff Revised!
+        self.B_StopRun = True
+
     def __next__(self):
-        if self.count == self.nf:
+        if self.count == self.nf or self.B_StopRun: # Jeff Revised!
+            self.B_StopRun = False # Jeff Revised!
             raise StopIteration
         path = self.files[self.count]
 
@@ -210,7 +215,8 @@ class LoadImages:  # for inference
         else:
             # Read image
             self.count += 1
-            img0 = cv2.imread(path)  # BGR
+            # img0 = cv2.imread(path) # BGR # 中文路徑會出問題! Jeff Revised!
+            img0 = cv2.imdecode(np.fromfile(path, dtype=np.uint8), 1) # Jeff Revised!
             assert img0 is not None, 'Image Not Found ' + path
             print(f'image {self.count}/{self.nf} {path}: ', end='')
 
@@ -230,7 +236,6 @@ class LoadImages:  # for inference
 
     def __len__(self):
         return self.nf  # number of files
-
 
 class LoadWebcam:  # for inference
     def __init__(self, pipe='0', img_size=640, stride=32):
@@ -272,12 +277,12 @@ class LoadWebcam:  # for inference
     def __len__(self):
         return 0
 
-
 class LoadStreams:  # multiple IP or RTSP cameras
-    def __init__(self, sources='streams.txt', img_size=640, stride=32):
+    def __init__(self, sources='streams.txt', img_size=640, stride=32, B_StopRun = False): # Jeff Revised!
         self.mode = 'stream'
         self.img_size = img_size
         self.stride = stride
+        self.B_StopRun = B_StopRun
 
         if os.path.isfile(sources):
             with open(sources, 'r') as f:
@@ -297,6 +302,7 @@ class LoadStreams:  # multiple IP or RTSP cameras
                 s = pafy.new(s).getbest(preftype="mp4").url  # YouTube URL
             s = eval(s) if s.isnumeric() else s  # i.e. s = '0' local webcam
             cap = cv2.VideoCapture(s)
+            self.cap = cap # Jeff Revised!
             assert cap.isOpened(), f'Failed to open {s}'
             w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
             h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
@@ -321,19 +327,27 @@ class LoadStreams:  # multiple IP or RTSP cameras
         while cap.isOpened() and n < f:
             n += 1
             # _, self.imgs[index] = cap.read()
-            cap.grab()
-            if n % read == 0:
-                success, im = cap.retrieve()
-                self.imgs[i] = im if success else self.imgs[i] * 0
-            time.sleep(1 / self.fps[i])  # wait time
+            try: # Jeff Revised!
+                cap.grab()
+                if n % read == 0:
+                    success, im = cap.retrieve()
+                    self.imgs[i] = im if success else self.imgs[i] * 0
+                time.sleep(1 / self.fps[i])  # wait time
+            except:
+                break
 
     def __iter__(self):
         self.count = -1
         return self
 
+    def StopRun(self): # Jeff Revised!
+        self.B_StopRun = True
+        self.cap.release()
+
     def __next__(self):
         self.count += 1
-        if not all(x.is_alive() for x in self.threads) or cv2.waitKey(1) == ord('q'):  # q to quit
+        if not all(x.is_alive() for x in self.threads) or cv2.waitKey(1) == ord('q') or self.B_StopRun:  # q to quit # Jeff Revised!
+            self.B_StopRun = False # Jeff Revised!
             cv2.destroyAllWindows()
             raise StopIteration
 
@@ -352,7 +366,6 @@ class LoadStreams:  # multiple IP or RTSP cameras
 
     def __len__(self):
         return len(self.sources)  # 1E12 frames = 32 streams at 30 FPS for 30 years
-
 
 def img2label_paths(img_paths):
     # Define label paths as a function of image paths
@@ -625,7 +638,8 @@ def load_image(self, index):
     img = self.imgs[index]
     if img is None:  # not cached
         path = self.img_files[index]
-        img = cv2.imread(path)  # BGR
+        # img = cv2.imread(path)  # BGR # 中文路徑會出問題! Jeff Revised!
+        img = cv2.imdecode(np.fromfile(path, dtype=np.uint8), 1) # Jeff Revised!
         assert img is not None, 'Image Not Found ' + path
         h0, w0 = img.shape[:2]  # orig hw
         r = self.img_size / max(h0, w0)  # ratio
@@ -792,7 +806,8 @@ def extract_boxes(path='../datasets/coco128'):  # from utils.datasets import *; 
     for im_file in tqdm(files, total=n):
         if im_file.suffix[1:] in img_formats:
             # image
-            im = cv2.imread(str(im_file))[..., ::-1]  # BGR to RGB
+            # im = cv2.imread(str(im_file))[..., ::-1] # BGR to RGB # 中文路徑會出問題! Jeff Revised!
+            im = cv2.imdecode(np.fromfile(str(im_file), dtype=np.uint8), 1)[..., ::-1] # Jeff Revised!
             h, w = im.shape[:2]
 
             # labels

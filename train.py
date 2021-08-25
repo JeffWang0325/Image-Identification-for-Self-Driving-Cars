@@ -71,7 +71,8 @@ def train(hyp,  # path/to/hyp.yaml or hyp dictionary
 
     # Hyperparameters
     if isinstance(hyp, str):
-        with open(hyp) as f:
+        #with open(hyp) as f:
+        with open(hyp, encoding="utf-8") as f: # Jeff Revised!
             hyp = yaml.safe_load(f)  # load hyps dict
     logger.info(colorstr('hyperparameters: ') + ', '.join(f'{k}={v}' for k, v in hyp.items()))
 
@@ -85,7 +86,8 @@ def train(hyp,  # path/to/hyp.yaml or hyp dictionary
     plots = not evolve  # create plots
     cuda = device.type != 'cpu'
     init_seeds(1 + RANK)
-    with open(data) as f:
+    #with open(data) as f:
+    with open(data, encoding="utf-8") as f: # Jeff Revised!
         data_dict = yaml.safe_load(f)  # data dict
 
     # Loggers
@@ -530,7 +532,8 @@ def main(opt):
     if opt.resume and not wandb_run:  # resume an interrupted run
         ckpt = opt.resume if isinstance(opt.resume, str) else get_latest_run()  # specified or most recent path
         assert os.path.isfile(ckpt), 'ERROR: --resume checkpoint does not exist'
-        with open(Path(ckpt).parent.parent / 'opt.yaml') as f:
+        #with open(Path(ckpt).parent.parent / 'opt.yaml') as f:
+        with open(Path(ckpt).parent.parent / 'opt.yaml', encoding="utf-8") as f: # Jeff Revised!
             opt = argparse.Namespace(**yaml.safe_load(f))  # replace
         opt.cfg, opt.weights, opt.resume = '', ckpt, True  # reinstate
         logger.info('Resuming training from %s' % ckpt)
@@ -592,7 +595,8 @@ def main(opt):
                 'mixup': (1, 0.0, 1.0),  # image mixup (probability)
                 'copy_paste': (1, 0.0, 1.0)}  # segment copy-paste (probability)
 
-        with open(opt.hyp) as f:
+        #with open(opt.hyp) as f:
+        with open(opt.hyp, encoding="utf-8") as f: # Jeff Revised!
             hyp = yaml.safe_load(f)  # load hyps dict
             if 'anchors' not in hyp:  # anchors commented in hyp.yaml
                 hyp['anchors'] = 3
