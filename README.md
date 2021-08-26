@@ -34,7 +34,7 @@ $ pip install -r requirements.txt
 <details open>
 <summary>Execute GUI</summary>
   
-* **Step1**: [Install all models and images]()
+* **Step1**: [Install all models and images](https://drive.google.com/file/d/1F4fnQ4ZiFhmI6yc-XiQ3TS9MGayoeTe4/view?usp=sharing)
 * **Step2**: Move the files to the appropriate path
 * **Step3**: Execute detect_Main_Jeff.py
   
