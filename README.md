@@ -34,9 +34,9 @@ $ pip install -r requirements.txt
 <details open>
 <summary>Execute GUI</summary>
   
-* Step1: [Install all models and images]()
-* Step2: Move the files to the appropriate path
-* Step3: Execute detect_Main_Jeff.py
+* **Step1**: [Install all models and images]()
+* **Step2**: Move the files to the appropriate path
+* **Step3**: Execute detect_Main_Jeff.py
   
 </details>
 
@@ -62,3 +62,55 @@ Please click the following figures or links to watch GUI demo videos or report:
 [![Everything Is AWESOME](http://img.youtube.com/vi/R0lHuH2iOAE/sddefault.jpg)](https://youtu.be/R0lHuH2iOAE)   
 
 ## ※Outline:   
+***0. Introduction***
+![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/0.jpg "Logo Title Text 1")
+
+●4 Parts of GUI: Model Input Setting, Input Sources, Image Display, Information Page
+
+***1. Input Source - Folder***
+![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/1.jpg "Logo Title Text 1")
+
+●Inside the folder, they can be either images or videos.
+
+***2. Input Source - Image***
+![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/2.jpg "Logo Title Text 1")
+
+***3. Information Page***
+![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/3-1.jpg "Logo Title Text 1")
+
+![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/3-2.jpg "Logo Title Text 1")
+
+※More Information:  
+●Image height and width  
+●Object detection result  
+●Computation time of Yolov5, traffic light and traffic sign  
+
+***4. Input Source - YouTube***
+![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/4.jpg "Logo Title Text 1")
+
+***5. Input Source - DroidCam***
+![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/5-1.jpg "Logo Title Text 1")
+
+●Write the **IP Cam Access** in the textbox.
+
+![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/5-2.jpg "Logo Title Text 1")
+
+***6. Parameter Adjustment - Yolo v5***
+![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/6.jpg "Logo Title Text 1")
+
+***7. Parameter Adjustment - Sign (DL)***
+![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/7.jpg "Logo Title Text 1")
+
+***8. Information Page - Others***
+![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/8.jpg "Logo Title Text 1")
+
+---
+# Contact Information:
+If you have any questions or suggestions about code, project or any other topics, please feel free to contact me and discuss with me. 😄😄😄
+
+<a href="https://www.linkedin.com/in/tzu-wei-wang-a09707157" target="_blank"><img src="https://github.com/JeffWang0325/JeffWang0325/blob/master/Icon%20Image/linkedin_64.png" width="64"></a>
+<a href="https://www.youtube.com/channel/UC9nOeQSWp0PQJPtUaZYwQBQ" target="_blank"><img src="https://github.com/JeffWang0325/JeffWang0325/blob/master/Icon%20Image/youtube_64.png" width="64"></a>
+<a href="https://www.facebook.com/tzuwei.wang.33/" target="_blank"><img src="https://github.com/JeffWang0325/JeffWang0325/blob/master/Icon%20Image/facebook_64.png" width="64"></a>
+<a href="https://www.instagram.com/tzuweiw/" target="_blank"><img src="https://github.com/JeffWang0325/JeffWang0325/blob/master/Icon%20Image/instagram_64.png" width="64"></a>
+<a href="https://www.kaggle.com/tzuweiwang" target="_blank"><img src="https://github.com/JeffWang0325/JeffWang0325/blob/master/Icon%20Image/kaggle_64.png" width="64"></a>
+<a href="https://github.com/JeffWang0325" target="_blank"><img src="https://github.com/JeffWang0325/JeffWang0325/blob/master/Icon%20Image/github_64.png" width="64"></a>
