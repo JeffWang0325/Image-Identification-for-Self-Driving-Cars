@@ -103,7 +103,7 @@ tensorflow==2.5.0
 tensorflow-estimator==2.5.0
 tensorflow-gpu==2.5.0
 termcolor==1.1.0
-terminado==0.9.4
+terminado==0.11.1
 testpath @ file:///tmp/build/80754af9/testpath_1624638946665/work
 threadpoolctl==2.1.0
 tifffile==2021.7.2
