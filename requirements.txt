@@ -61,7 +61,7 @@ opencv-python==4.5.2.54
 opt-einsum==3.3.0
 packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
 pafy==0.5.5
-pandas==1.3.0
+pandas==1.3.2
 pandocfilters @ file:///C:/ci/pandocfilters_1605102427207/work
 parso @ file:///tmp/build/80754af9/parso_1617223946239/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
