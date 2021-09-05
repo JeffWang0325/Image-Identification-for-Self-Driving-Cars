@@ -11,7 +11,7 @@ For example: input source (e.g., **Folder, Image, YouTube, DroidCam, WebCam**), 
 It is written in Python and uses Tkinter for its graphical user interface (GUI).
 
 # Software Environment
-| IDE                         | Visual Studio Code       |
+| IDE (optional)              | Visual Studio Code       |
 | :-------------------------- | :----------------------- |
 | Extensions                  | Python                   |
 | Programming Language        | Python                   |
