@@ -80,7 +80,7 @@ python-louvain==0.15
 pytz==2021.1
 PyWavelets==1.1.1
 pywin32==227
-pywinpty==0.5.7
+pywinpty==1.1.4
 PyYAML==5.4.1
 pyzmq==20.0.0
 qtconsole @ file:///tmp/build/80754af9/qtconsole_1623278325812/work
