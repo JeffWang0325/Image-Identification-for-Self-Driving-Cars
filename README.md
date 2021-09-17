@@ -10,13 +10,14 @@ For example: input source (e.g., **Folder, Image, YouTube, DroidCam, WebCam**), 
 
 It is written in Python and uses Tkinter for its graphical user interface (GUI).
 
-# Software Environment
+# Software and Hardware Environment
 | IDE (optional)              | Visual Studio Code       |
 | :-------------------------- | :----------------------- |
 | Extensions                  | Python                   |
 | Programming Language        | Python                   |
 | Python Version              | Python 3.7.10            |
 | Python Package              | Refer to [requirements.txt](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/requirements.txt)|
+| GPU (preferred)             | GTX 1080 Ti or higher    |
 
 # Quick Start Examples
 <details open>
