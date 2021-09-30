@@ -45,41 +45,41 @@ $ pip install -r requirements.txt
 
 Please click the following figures or links to watch GUI demo videos or report:  
 [自駕車影像辨識系統 (Image Identification for Self-Driving Cars using Python Tkinter )-English Version](https://youtu.be/l6lmuLPjNUY)  
-[![Everything Is AWESOME](http://img.youtube.com/vi/l6lmuLPjNUY/sddefault.jpg)](https://youtu.be/l6lmuLPjNUY)  
+[![](http://img.youtube.com/vi/l6lmuLPjNUY/sddefault.jpg)](https://youtu.be/l6lmuLPjNUY)  
 
 [專題報告: 自駕車影像辨識系統 (Image Identification for Self-Driving Cars)-HD](https://youtu.be/PqvCH86_cIs)  
-[![Everything Is AWESOME](http://img.youtube.com/vi/PqvCH86_cIs/sddefault.jpg)](https://youtu.be/PqvCH86_cIs)  
+[![](http://img.youtube.com/vi/PqvCH86_cIs/sddefault.jpg)](https://youtu.be/PqvCH86_cIs)  
 
 [專題報告: 自駕車影像辨識系統 (Image Identification for Self-Driving Cars)](https://youtu.be/6i0p-vnwRN4)  
-[![Everything Is AWESOME](http://img.youtube.com/vi/6i0p-vnwRN4/sddefault.jpg)](https://youtu.be/6i0p-vnwRN4)   
+[![](http://img.youtube.com/vi/6i0p-vnwRN4/sddefault.jpg)](https://youtu.be/6i0p-vnwRN4)   
 
 [GUI Demo1 using Python Tkinter (Image Identification for Self Driving Cars)-中文版](https://youtu.be/SS-Cb4kZask)  
-[![Everything Is AWESOME](http://img.youtube.com/vi/SS-Cb4kZask/sddefault.jpg)](https://youtu.be/SS-Cb4kZask)   
+[![](http://img.youtube.com/vi/SS-Cb4kZask/sddefault.jpg)](https://youtu.be/SS-Cb4kZask)   
 
 [GUI Demo2 using Python Tkinter (Image Identification for Self Driving Cars)-中文版](https://youtu.be/lewPH9_w_-U)  
-[![Everything Is AWESOME](http://img.youtube.com/vi/lewPH9_w_-U/sddefault.jpg)](https://youtu.be/lewPH9_w_-U)   
+[![](http://img.youtube.com/vi/lewPH9_w_-U/sddefault.jpg)](https://youtu.be/lewPH9_w_-U)   
 
 [GUI Demo3 using Python Tkinter (Image Identification for Self Driving Cars)](https://youtu.be/R0lHuH2iOAE)  
-[![Everything Is AWESOME](http://img.youtube.com/vi/R0lHuH2iOAE/sddefault.jpg)](https://youtu.be/R0lHuH2iOAE)   
+[![](http://img.youtube.com/vi/R0lHuH2iOAE/sddefault.jpg)](https://youtu.be/R0lHuH2iOAE)   
 
 ## ※Outline:   
 ***0. Introduction***
-![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/0.jpg "Logo Title Text 1")
+![](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/0.jpg "Logo Title Text 1")
 
 ●4 Parts of GUI: Model Input Setting, Input Sources, Image Display, Information Page
 
 ***1. Input Source - Folder***
-![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/1.jpg "Logo Title Text 1")
+![](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/1.jpg "Logo Title Text 1")
 
 ●Inside the folder, they can be either images or videos.
 
 ***2. Input Source - Image***
-![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/2.jpg "Logo Title Text 1")
+![](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/2.jpg "Logo Title Text 1")
 
 ***3. Information Page***
-![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/3-1.jpg "Logo Title Text 1")
+![](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/3-1.jpg "Logo Title Text 1")
 
-![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/3-2.jpg "Logo Title Text 1")
+![](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/3-2.jpg "Logo Title Text 1")
 
 ※More Information:  
 ●Image height and width  
@@ -87,20 +87,20 @@ Please click the following figures or links to watch GUI demo videos or report:
 ●Computation time of Yolov5, traffic light and traffic sign  
 
 ***4. Input Source - YouTube***
-![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/4.jpg "Logo Title Text 1")
+![](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/4.jpg "Logo Title Text 1")
 
 ***5. Input Source - DroidCam***
-![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/5-1.jpg "Logo Title Text 1")
+![](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/5-1.jpg "Logo Title Text 1")
 
 ●Write the **IP Cam Access** in the textbox.
 
-![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/5-2.jpg "Logo Title Text 1")
+![](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/5-2.jpg "Logo Title Text 1")
 
 ***6. Parameter Adjustment - Yolo v5***
-![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/6.jpg "Logo Title Text 1")
+![](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/6.jpg "Logo Title Text 1")
 
 ***7. Parameter Adjustment - Sign (DL)***
-![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/7.jpg "Logo Title Text 1")
+![](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/7.jpg "Logo Title Text 1")
 
 ***8. Information Page - Others***
 ![alt text](https://github.com/JeffWang0325/Image-Identification-for-Self-Driving-Cars/blob/master/README%20Image/8.jpg "Logo Title Text 1")
