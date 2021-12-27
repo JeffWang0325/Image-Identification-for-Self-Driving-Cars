@@ -109,7 +109,7 @@ threadpoolctl==2.1.0
 tifffile==2021.7.2
 torch==1.9.0+cu102
 torch-cluster==1.5.9
-torch-geometric==1.7.2
+torch-geometric==2.0.3
 torch-scatter==2.0.7
 torch-sparse==0.6.10
 torch-spline-conv==1.2.1
