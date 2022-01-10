@@ -12,7 +12,7 @@ cffi @ file:///C:/ci/cffi_1613247308275/work
 chardet==4.0.0
 colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
 cycler==0.10.0
-decorator==4.4.2
+decorator==5.1.1
 defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
 easygui==0.98.2
 entrypoints==0.3
