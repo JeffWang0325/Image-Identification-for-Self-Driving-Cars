@@ -98,7 +98,7 @@ six==1.15.0
 sklearn==0.0
 tensorboard==2.5.0
 tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.8.0
+tensorboard-plugin-wit==1.8.1
 tensorflow==2.5.0
 tensorflow-estimator==2.5.0
 tensorflow-gpu==2.5.0
