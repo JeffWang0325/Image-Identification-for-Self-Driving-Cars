@@ -56,7 +56,7 @@ nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
 networkx==2.5.1
 notebook @ file:///C:/ci/notebook_1621528807363/work
 numpy==1.19.5
-oauthlib==3.1.1
+oauthlib==3.2.0
 opencv-python==4.5.2.54
 opt-einsum==3.3.0
 packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
