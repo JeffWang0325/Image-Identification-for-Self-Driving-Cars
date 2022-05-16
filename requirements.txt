@@ -44,7 +44,7 @@ jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_16014907206
 jupyterlab-widgets @ file:///tmp/build/80754af9/jupyterlab_widgets_1609884341231/work
 keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
-kiwisolver==1.3.1
+kiwisolver==1.4.2
 Markdown==3.3.4
 MarkupSafe @ file:///C:/ci/markupsafe_1621528383308/work
 matplotlib==3.4.2
