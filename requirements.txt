@@ -118,7 +118,7 @@ torchvision==0.10.0+cu102
 tornado @ file:///C:/ci/tornado_1606935947090/work
 tqdm==4.61.2
 traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
-typing-extensions==3.7.4.3
+typing-extensions==4.3.0
 urllib3==1.26.6
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
