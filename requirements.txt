@@ -6,7 +6,7 @@ attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
 backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 bleach @ file:///tmp/build/80754af9/bleach_1612211392645/work
 cached-property==1.5.2
-cachetools==4.2.2
+cachetools==5.2.0
 certifi==2021.5.30
 cffi @ file:///C:/ci/cffi_1613247308275/work
 chardet==4.0.0
