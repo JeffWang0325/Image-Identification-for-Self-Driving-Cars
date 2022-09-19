@@ -31,7 +31,7 @@ ipykernel @ file:///C:/ci/ipykernel_1596208728219/work/dist/ipykernel-5.3.4-py3-
 ipython @ file:///C:/ci/ipython_1617121109687/work
 ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
 ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1610481889018/work
-isodate==0.6.0
+isodate==0.6.1
 jedi==0.17.0
 Jinja2 @ file:///tmp/build/80754af9/jinja2_1624781299557/work
 joblib==1.0.1
