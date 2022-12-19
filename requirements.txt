@@ -9,7 +9,7 @@ cached-property==1.5.2
 cachetools==4.2.2
 certifi==2021.5.30
 cffi @ file:///C:/ci/cffi_1613247308275/work
-chardet==4.0.0
+chardet==5.1.0
 colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
 cycler==0.10.0
 decorator==4.4.2
