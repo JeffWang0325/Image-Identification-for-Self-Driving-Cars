@@ -114,7 +114,7 @@ torch-scatter==2.0.7
 torch-sparse==0.6.10
 torch-spline-conv==1.2.1
 torchaudio==0.9.0
-torchvision==0.10.0+cu102
+torchvision==0.14.1
 tornado @ file:///C:/ci/tornado_1606935947090/work
 tqdm==4.61.2
 traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
