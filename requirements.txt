@@ -7,7 +7,7 @@ backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 bleach @ file:///tmp/build/80754af9/bleach_1612211392645/work
 cached-property==1.5.2
 cachetools==4.2.2
-certifi==2021.5.30
+certifi==2022.12.7
 cffi @ file:///C:/ci/cffi_1613247308275/work
 chardet==4.0.0
 colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
