@@ -123,7 +123,7 @@ urllib3==1.26.6
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
 Werkzeug==2.0.1
-widgetsnbextension==3.5.1
+widgetsnbextension==4.0.5
 wincertstore==0.2
 wrapt==1.12.1
 youtube-dl==2021.6.6
