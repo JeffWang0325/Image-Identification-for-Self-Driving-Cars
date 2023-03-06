@@ -77,7 +77,7 @@ pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
 pyrsistent @ file:///C:/ci/pyrsistent_1600123688363/work
 python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
 python-louvain==0.15
-pytz==2021.1
+pytz==2022.7.1
 PyWavelets==1.1.1
 pywin32==227
 pywinpty==0.5.7
