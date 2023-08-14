@@ -97,7 +97,7 @@ Send2Trash @ file:///tmp/build/80754af9/send2trash_1607525499227/work
 six==1.15.0
 sklearn==0.0
 tensorboard==2.5.0
-tensorboard-data-server==0.6.1
+tensorboard-data-server==0.7.1
 tensorboard-plugin-wit==1.8.0
 tensorflow==2.5.0
 tensorflow-estimator==2.5.0
