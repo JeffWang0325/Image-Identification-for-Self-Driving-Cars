@@ -57,7 +57,7 @@ networkx==2.5.1
 notebook @ file:///C:/ci/notebook_1621528807363/work
 numpy==1.19.5
 oauthlib==3.1.1
-opencv-python==4.5.2.54
+opencv-python==4.8.0.76
 opt-einsum==3.3.0
 packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
 pafy==0.5.5
