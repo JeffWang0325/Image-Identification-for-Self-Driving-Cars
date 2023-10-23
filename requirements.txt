@@ -24,7 +24,7 @@ google-pasta==0.2.0
 googledrivedownloader==0.4
 grpcio==1.34.1
 h5py==3.1.0
-idna==2.10
+idna==3.4
 imageio==2.9.0
 importlib-metadata @ file:///C:/ci/importlib-metadata_1617877486026/work
 ipykernel @ file:///C:/ci/ipykernel_1596208728219/work/dist/ipykernel-5.3.4-py3-none-any.whl
