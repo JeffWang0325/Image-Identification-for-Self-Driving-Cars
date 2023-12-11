@@ -1,4 +1,4 @@
-absl-py==0.13.0
+absl-py==2.0.0
 argon2-cffi @ file:///C:/ci/argon2-cffi_1613038019788/work
 astunparse==1.6.3
 async-generator==1.10
