@@ -106,7 +106,7 @@ termcolor==1.1.0
 terminado==0.9.4
 testpath @ file:///tmp/build/80754af9/testpath_1624638946665/work
 threadpoolctl==2.1.0
-tifffile==2021.7.2
+tifffile==2023.12.9
 torch==1.9.0+cu102
 torch-cluster==1.5.9
 torch-geometric==1.7.2
