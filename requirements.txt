@@ -69,7 +69,7 @@ Pillow==8.3.1
 prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1623189609245/work
 prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1616415428029/work
 protobuf==3.17.3
-pyasn1==0.4.8
+pyasn1==0.6.1
 pyasn1-modules==0.2.8
 pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
 Pygments @ file:///tmp/build/80754af9/pygments_1621606182707/work
