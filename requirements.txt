@@ -126,5 +126,5 @@ Werkzeug==2.0.1
 widgetsnbextension==3.5.1
 wincertstore==0.2
 wrapt==1.12.1
-youtube-dl==2021.6.6
+youtube-dl==2021.12.17
 zipp @ file:///tmp/build/80754af9/zipp_1625570634446/work
